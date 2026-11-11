@@ -3,12 +3,10 @@
   "version": "2.1.0",
   "description": "Opliora Private Limited — Corporate Website",
   "private": true,
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "serve": "node server.js",
-    "build": "node -e \"console.log('✦ Opliora production distribution verified.')\"",
-    "lint": "node --check js/config.js && node --check js/hero-3d.js && node --check js/motion.js && node --check js/components/nav.js && node --check js/components/contact.js && node --check js/main.js && node --check api/contact.js && node --check server.js"
+    "start": "node local-server.js",
+    "serve": "node local-server.js",
+    "lint": "node --check js/config.js && node --check js/hero-3d.js && node --check js/motion.js && node --check js/components/nav.js && node --check js/components/contact.js && node --check js/main.js && node --check api/contact.js && node --check local-server.js"
   },
   "dependencies": {
     "nodemailer": "^6.10.0"

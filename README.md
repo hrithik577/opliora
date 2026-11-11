@@ -93,7 +93,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   └── lucide.min.js       # Lucide SVG icon library
 ├── index.html              # Semantic HTML5 markup with Open Graph & Schema.org JSON-LD
 ├── styles.css              # Custom design system, typography & responsive layouts
-├── server.js               # Node.js static & API server
+├── local-server.js        # Node.js static & API server for local testing
 ├── vercel.json             # Vercel deployment configuration & security headers
 ├── sitemap.xml             # Search engine sitemap
 ├── robots.txt              # Search crawler directives
@@ -123,3 +123,4 @@ The repository includes a ready-to-deploy [`vercel.json`](vercel.json) configura
 ---
 
 © Opliora Private Limited. All rights reserved.
+
